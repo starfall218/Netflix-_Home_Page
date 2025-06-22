@@ -1,0 +1,195 @@
+.formbox nav {
+  width: 100%;
+  height: 6vh;
+  border-bottom: 1px solid #e6e6e6;
+  padding-bottom: 15px;
+  position: absolute;
+  z-index: 3;
+}
+
+.formbox {
+  background-image: url('https://assets.nflxext.com/ffe/siteui/vlv3/8200f588-2e93-4c95-8eab-ebba17821657/web/DE-en-20250616-TRIFECTA-perspective_4073f154-e92b-41b0-abc0-f6fe1242d2ae_small.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+.filter {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  opacity: 0.8;
+}
+.shortnav svg {
+  width: 68px;
+  fill: rgb(229, 9, 20);
+}
+.shortnav {
+  width: 93%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  padding-top: 12px;
+}
+.shortnav a, .theform p {
+  color: #fff;
+}
+.displaybox {
+  position: absolute;
+  z-index: 3;
+  width: 100%;
+  height: 100vh;
+}
+.createpass {
+color: #fff;
+  margin-bottom: 0px;
+  font-size: 32px;
+  font-weight: 500;
+}
+.topform {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 10px;
+}
+label {
+  color: #fff;
+  font-weight: 700;
+}
+.forms input {
+  width: 95%;
+}
+.topform input {
+  width: 95%;
+}
+
+.forms input {
+  padding: 13px 8px;
+  border-radius: 5px;
+  border: 1px solid black;
+}
+.inputfields {
+  width: 100%;
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+}
+.theform {
+  width: 100%;
+  position: absolute;
+  z-index: 3;
+  }
+.forms {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 30px;
+  width: 90%;
+  height: 115vh;
+  margin: auto;
+  transition: all 0.15s ease-out 0.3s;
+}
+
+
+.emailbox, .password {
+  width: 100%;
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+}
+.submit-sec {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+.submit-sec p {
+  margin-top: 0px;
+}
+.submit-btn {
+  background-color: rgb(229, 9, 20);
+  color: #fff;
+  transition: background-color 0.15s ease-in-out;
+}
+.submit-btn:hover {
+  background-color: rgb(192, 10, 19);
+}
+
+.modern-date {
+  border-radius: 5px;
+  padding: 8px 10px;
+  border: 1px solid #e6e6e6;
+  font-size: 16px;
+}
+
+/* Age and Image form */
+.condition-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+  width: 90%;
+  height: 60%;
+  margin: 5rem auto;
+  padding: 7px;
+  background-color: #e6e6e6;
+  color: black;
+  border-radius: 10px;
+  transition: all 0.15s ease-in 0.3s;
+}
+.condition-form .createpass {
+  margin-bottom: 30px;
+  color: black;
+}
+.upload-image {
+  border: none;
+  padding: 10px;
+}
+.condition-form button {
+  background-color: rgb(229, 9, 20);
+  color: #fff;
+  transition: all 0.15s ease-in;
+}
+.condition-form button:hover {
+  background-color: rgb(192, 10, 19);
+  border-color: rgb(192, 10, 19);
+}
+@media screen and (min-width: 800px) {
+  .formbox nav {
+    width: 100%;
+    height: 10vh;
+  }
+  .shortnav svg {
+    width: 167px;
+    height: 45px;
+  }
+  .forms {
+    width: 60%;
+    height: 120vh;
+  }
+  .topform {
+    flex-direction: row;
+  }
+  .inputfields {
+    align-items: start;
+    width: 48%;
+  }
+  .forms input {
+    width: 97.4%;
+  }
+  .topform input {
+    width: 95%;
+  }
+
+
+  .condition-form {
+    width: 50%;
+    height: 60%;
+  }
+
+}
