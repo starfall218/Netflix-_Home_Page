@@ -170,7 +170,7 @@ label {
   }
   .forms {
     width: 60%;
-    height: 120vh;
+    height: 100vh;
   }
   .topform {
     flex-direction: row;
