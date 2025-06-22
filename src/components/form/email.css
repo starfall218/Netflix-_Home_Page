@@ -91,7 +91,7 @@ label {
   justify-content: center;
   gap: 30px;
   width: 90%;
-  height: 115vh;
+  height: 100vh;
   margin: auto;
   transition: all 0.15s ease-out 0.3s;
 }
